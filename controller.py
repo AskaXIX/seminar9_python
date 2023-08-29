@@ -1,4 +1,6 @@
-import model, text, view
+import model  
+import text
+import view
 
 
 def search_contact():
