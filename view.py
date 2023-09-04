@@ -26,7 +26,7 @@ def show_book(book: PhoneBook, msg: str):
             print(f'{i:>3}. {contact.name:<{book.max_len("name")}} '
                   f'{contact.phone:<{book.max_len("phone")}} '
                   f'{contact.comment:<{book.max_len("comment")}}')
-        print('*' * 67 + '\n')
+        print('*' * (book.max_len("name") + book.max_len("phone") + book.max_len("comment") + 8) + '\n')
     else:
         print_message(msg)
 
