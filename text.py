@@ -38,3 +38,7 @@ def contact_action(name: str, action: str) -> str:
 
 def not_find(word: str) -> str:
     return f'Контакты содержащие "{word}" не найдены!'
+
+
+# anything else
+# test
