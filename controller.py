@@ -23,7 +23,7 @@ def start():
                 pb.save_file()
                 view.print_message(text.save_successful)
             case 3:
-                view.show_book(pb.phone_book, text.empty_book_error)
+                view.show_book(pb, text.empty_book_error)
             case 4:
                 new_contact = view.input_contact(text.input_contact)
                 pb.add_contact(new_contact)
