@@ -42,3 +42,5 @@ def not_find(word: str) -> str:
 
 # anything else
 # another test
+
+dsa = 'test1'
