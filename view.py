@@ -1,5 +1,5 @@
 import text
-from model import Contact, PhoneBook
+from model import PhoneBook
 
 def main_menu():
     for i, item in enumerate(text.menu):
@@ -30,7 +30,7 @@ def show_book(book: PhoneBook, msg: str):
     else:
         print_message(msg)
 
-def input_contact(msg: str) -> list[str]:
+def input_contact(msg: list[str]) -> list[str]:
     contact = []
     for input_text in msg:
         contact.append(input(input_text))
